@@ -11,26 +11,8 @@
 - Проверить правильность сборки
 
 ## Компоненты трансформера
-
-### Энкодер
-- Input Embedding
-- Positional Encoding
-- Multi-Head Attention
-- Add & Norm
-- Feed Forward
-- Add & Norm
-
-### Декодер
-- Output Embedding
-- Positional Encoding
-- Masked Multi-Head Attention
-- Add & Norm
-- Multi-Head Attention
-- Add & Norm
-- Feed Forward
-- Add & Norm
-- Linear
-- Softmax
+Вспомним архитеткуру, ее и предстоить собрать самому:
+![Transformer](static/transformer.png)
 
 ## Как использовать
 
@@ -43,7 +25,7 @@
 
 ## Демонстрация
 
-![Демонстрация работы тренажера](path_to_your_gif.gif)
+![Демонстрация работы тренажера](static/demo_play.gif)
 
 ## Требования
 
@@ -64,7 +46,7 @@ pip install -r requirements.txt
 
 3. Запустите приложение:
 ```bash
-python attention/transformer_game.py
+python transformer_game.py
 ```
 
 ## Особенности
@@ -79,8 +61,7 @@ python attention/transformer_game.py
 
 ```
 transformer-trainer/
-├── attention/
-│   └── transformer_game.py
+├── transformer_game.py
 ├── static/
 │   └── trash.png
 ├── requirements.txt
@@ -101,9 +82,4 @@ MIT License
 
 ## Автор
 
-[Ваше имя]
-
-## Благодарности
-
-- Pygame за отличную библиотеку для создания игр
-- Сообщество Python за поддержку 
+[Быков Егор]
